@@ -26,5 +26,5 @@ app.use("/post", postRoutes);                 // Use post-related routes for URL
 app.use("/user", followRoutes);               // Use follow-related routes for URLs starting with '/user'
 
 // Start the server on a specified port
-const PORT = process.env.PORT || 3000;        // Use the port specified in environment variables or default to 3000
+const PORT = 3000;        // Use the port specified in environment variables or default to 3000
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`)); // Start the server and log a message
